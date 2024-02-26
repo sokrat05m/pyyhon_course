@@ -1,5 +1,5 @@
 # Сидим в терминале, пока не угадаем число
-number = 50
+number = 100
 switch = True
 while (switch):
     guess = int (input('Введите число: '))
