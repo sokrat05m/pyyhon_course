@@ -1,6 +1,6 @@
-a = 3
-b = 2
-c = 3
+a = 4
+b = 5
+c = 6
 if (c > a * b):
     print ("no")
 elif (c < a and c < b):
