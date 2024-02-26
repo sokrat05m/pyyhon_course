@@ -1,16 +1,13 @@
-s1 = 'katas'
-s2 = 'steak'
-lst = []
-for i in range(len(s2)):
-    if s2[i] in s1:
-        lst.append(0)
-        s1 = s1.replace(s2[i], '', 1)
+s1 = 'javascript'
+s2 = 'script'
+check = list(s1)
+print(check)
+for i in s2:
+    if i in s1:
+        check.remove(i)
     else:
-        lst.append(1)
-print(lst)
-if len(set(lst)) in (0, 1):
-    print(True)
+        print('false')
+print(check)
 
-print(s1)
 
 

@@ -2,7 +2,6 @@ strs = ["flower", "flow", "flight"]
 length = len(strs)
 
 b = min(strs, key=lambda x: len(x))
-print(b)
 i = 0
 a = ''
 count = 0
