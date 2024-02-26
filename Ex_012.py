@@ -1,4 +1,4 @@
-n = 12
+n = 10
 i = 1
 fact = 1
 while (i < n):
